@@ -1,6 +1,6 @@
-This crate provides the `insecure_https_connector()` function which can be used to generate a `HttpsConnector` with the underlying Openssl context configured to:
+This crate provides the `insecure_https_connector()` function which can be used to generate a `hyper::net::HttpsConnector` with the underlying OpenSSL context configured to:
 *   disable hostname verification
-*   allows `SSLv2` and `SSLv3`
+*   allow `SSLv2` and `SSLv3`
 
 Example:
 
