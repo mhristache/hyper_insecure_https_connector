@@ -1,0 +1,8 @@
+[package]
+name = "hyper_insecure_https_connector"
+version = "0.1.0"
+authors = ["Maximilian Hristache <mhristache@gmail.com>"]
+
+[dependencies]
+hyper = "0.9"
+openssl = "0.7"
