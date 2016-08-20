@@ -2,6 +2,13 @@
 name = "hyper_insecure_https_connector"
 version = "0.1.0"
 authors = ["Maximilian Hristache <mhristache@gmail.com>"]
+license = "MIT/Apache-2.0"
+description = """
+Insecure HttpsConnector for Hyper (no SSL hostname validation and SSLv2/SSLv3 support)
+"""
+repository = "https://github.com/maximih/hyper_insecure_https_connector"
+homepage = "https://github.com/maximih/hyper_insecure_https_connector"
+keywords = ["insecure", "hyper"]
 
 [dependencies]
 hyper = "0.9"
